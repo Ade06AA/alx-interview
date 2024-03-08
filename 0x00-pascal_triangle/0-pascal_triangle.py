@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+doc
+"""
 
 
 def pascal_triangle(n):
@@ -20,4 +23,4 @@ def pascal_triangle(n):
             if j == len(triangle[-1]) - 1:
                 new.append(1)
         triangle.append(new)
-    return(triangle)
+    return triangle
