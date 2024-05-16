@@ -57,9 +57,8 @@ def getSubW(newL, primes):
     users = ["Maria", "Ben"]
     while (True):
         # maria plays
-        for i in range(len(users) - 1):
+        for i in [0, 1]:
             newL = play(newL, primes)
-            print(newL)
             if newL:
                 if len(newL) == 0:
                     # this user wins
