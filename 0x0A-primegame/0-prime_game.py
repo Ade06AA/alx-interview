@@ -77,7 +77,8 @@ def isWinner(x, nums):
     mariaW = 0
     primes = [[], 0]
     # players going multiple round
-    for i in nums:
+    for j in range(len(x)):
+        i = nums[j]
         newL = list(range(1, i + 1))
         if (i > primes[1]):
             primes[1] = i
