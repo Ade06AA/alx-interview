@@ -89,8 +89,10 @@ def isWinner(x, nums):
         win = getSubW(newL, primes[0])
         if win == "Ben":
             benW += 1
-        else:
+        elif win == "Maria":
             mariaW += 1
+        else:
+            continue
     if benW > mariaW:
         return "Ben"
     elif benW < mariaW:
