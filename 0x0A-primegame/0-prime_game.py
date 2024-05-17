@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-some randome game
+some random game
 """
 
 
@@ -71,7 +71,7 @@ def getSubW(newL, primes):
 
 def isWinner(x, nums):
     """
-    main func
+    main game engine
     """
     benW = 0
     mariaW = 0
